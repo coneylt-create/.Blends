@@ -1,23 +1,19 @@
-# Blender Research Documentation
+# Studies
 
-Research notes, practical explanations and supporting Blender materials by **Coneyl Taylor**.
+Research notes, practical explanations and supporting materials by **Coneyl Taylor**, published for access alongside their Zenodo records.
 
-This repository documents how Blender rigs and deformation systems work through inspection, controlled comparisons and illustrated walkthroughs. Materials are organised by study, with source credits, software versions and release information.
+This folder holds dated, self-contained studies. Each one gets its own subfolder with its working file(s) and its own README; this page is the index.
 
-## Current study: Better Bends
+## 3D studies
 
-**Better Bends: Corrective Bones in Blender** examines how an existing rig combines helper bones, stored vertex weights, constraints and pose-driven shape keys.
+| Study | What it covers | Status |
+|---|---|---|
+| [Better Bends](better-bends/) | Corrective bones in Blender — how an existing rig (Royal Skies, adapted to Auto-Rig Pro) combines helper bones, weights, constraints and pose-driven shape keys | Paper and supporting materials in preparation |
+| [Hand Rig Master Control](hand-rig-master-control/) | A hand skeleton placed by eye from reference footage, converted into an Auto-Rig Pro rig and driven by a one-control master | Paper in layout for Zenodo |
 
-The study investigates the third-party **Royal Skies rig** and a localized hip-patch adapter fitted to Auto-Rig Pro. It documents and analyses an existing corrective system; it does not claim authorship of the original Royal Skies rig.
+## Graphic design studies
 
-Supporting materials are being prepared for release, including:
-
-- The research paper.
-- The study’s `.blend` file.
-- Annotated figures and pose comparisons.
-- Instructions for inspecting the setup and repeating the comparisons by hand.
-
-Files will be listed here as they are uploaded and approved for release.
+None published yet. This section will list design-focused studies as they're added, the same way the 3D section does.
 
 ## Recorded software environment
 
@@ -26,41 +22,12 @@ Files will be listed here as they are uploaded and approved for release.
 | Blender | 5.2.0 LTS |
 | Auto-Rig Pro | 3.79.20 |
 
-These are the versions used for the documented study. Behaviour in other versions has not been established.
-
-## Using the Blender study file
-
-1. Download the file associated with the study’s specified release.
-2. Open it in Blender and use **Save As** to create a working copy.
-3. Follow **Appendix C** of the paper to identify the controls, establish a neutral pose and inspect the corrective responses.
-4. Keep the pose, viewpoint, scale and configuration consistent when comparing results.
-
-The supplied adapter contains a localized hip patch. The full-character comparisons in the paper come from the earlier source-character study.
-
-Visual agreement alone does not reproduce every numerical result. The paper explains the measurements and the evidence needed to check them.
-
-## Source asset and attribution
-
-The Royal Skies rig is a third-party asset.
-
-**Source listing:** [Royal Skies LLC – Royal Rig – Female2 9](https://sketchfab.com/3d-models/royal-skies-llc-royal-rig-female2-9-16be4b93768b4e419b2890f87a1f65bc), uploaded to Sketchfab by **donnaskuhn**.
-
-The paper distinguishes the source rig from the study’s analysis, poses, visualisations and localized adapter. No endorsement by the original creator or uploader is implied.
+Versions used across the current studies. Each subfolder's own README confirms what applies to it.
 
 ## Licensing
 
-Coneyl Taylor’s original text and analysis are licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
-
-Third-party models, rigs and other assets retain their own licences. The author’s licence does not relicense the Royal Skies asset or Auto-Rig Pro. Consult the source listing and any file-specific notices before redistributing third-party material.
+Coneyl Taylor's original text and analysis are licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). Third-party assets referenced in individual studies retain their own licences; check each study's README before redistributing.
 
 ## Releases, Zenodo and citation
 
-Each published study release will identify:
-
-- Its version and release date.
-- The included files and changes.
-- The software environment.
-- The corresponding paper and supporting materials.
-- Its Zenodo record and DOI, once published.
-
-Use the specific release associated with the paper when checking or citing results. Citation details will be added when the publication record is available.
+Each study is tied to its own Zenodo record and DOI once published. See the individual study's README for citation details.
